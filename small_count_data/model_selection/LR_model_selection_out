@@ -1,0 +1,44 @@
+Using base prefix '/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5'
+New python executable in /home/ydamergi/venvs/venv-for-python/bin/python3.7
+Not overwriting existing python script /home/ydamergi/venvs/venv-for-python/bin/python (you must use /home/ydamergi/venvs/venv-for-python/bin/python3.7)
+Traceback (most recent call last):
+  File "/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/bin/virtualenv", line 11, in <module>
+    load_entry_point('virtualenv==16.7.6', 'console_scripts', 'virtualenv')()
+  File "/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages/virtualenv.py", line 870, in main
+    symlink=options.symlink,
+  File "/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages/virtualenv.py", line 1156, in create_environment
+    install_python(home_dir, lib_dir, inc_dir, bin_dir, site_packages=site_packages, clear=clear, symlink=symlink)
+  File "/ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages/virtualenv.py", line 1666, in install_python
+    os.symlink(py_executable_base, full_pth)
+FileExistsError: [Errno 17] File exists: 'python3.7' -> '/home/ydamergi/venvs/venv-for-python/bin/python'
+Requirement already satisfied: xlrd==1.2.0 in /home/ydamergi/venvs/venv-for-python/lib/python3.7/site-packages (1.2.0)
+Requirement already satisfied: numpy in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (1.18.5)
+Requirement already satisfied: matplotlib in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (3.2.2)
+Requirement already satisfied: cycler>=0.10 in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (from matplotlib) (1.1.0)
+Requirement already satisfied: numpy>=1.11 in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (from matplotlib) (1.18.5)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (from matplotlib) (2.4.2)
+Requirement already satisfied: python-dateutil>=2.1 in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (from matplotlib) (2.8.0)
+Requirement already satisfied: six in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (from cycler>=0.10->matplotlib) (1.14.0)
+Requirement already satisfied: setuptools in /home/ydamergi/venvs/venv-for-python/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib) (65.3.0)
+ERROR: Could not find a version that satisfies the requirement itertools (from versions: none)
+ERROR: No matching distribution found for itertools
+Requirement already satisfied: statistics in /home/ydamergi/venvs/venv-for-python/lib/python3.7/site-packages (1.0.3.5)
+Requirement already satisfied: docutils>=0.3 in /home/ydamergi/venvs/venv-for-python/lib/python3.7/site-packages (from statistics) (0.19)
+Requirement already satisfied: sklearn in /home/ydamergi/venvs/venv-for-python/lib/python3.7/site-packages (0.0)
+Requirement already satisfied: scikit-learn in /home/ydamergi/venvs/venv-for-python/lib/python3.7/site-packages (from sklearn) (1.0.2)
+Requirement already satisfied: numpy>=1.14.6 in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (from scikit-learn->sklearn) (1.18.5)
+Requirement already satisfied: scipy>=1.1.0 in /ssoft/spack/arvine/v1/opt/spack/linux-rhel7-broadwell/gcc-8.4.0/python-3.7.7-oj5bqtdwernlqpzm5gwdliaatkqu47w5/lib/python3.7/site-packages (from scikit-learn->sklearn) (1.5.0)
+Requirement already satisfied: joblib>=0.11 in /home/ydamergi/venvs/venv-for-python/lib/python3.7/site-packages (from scikit-learn->sklearn) (1.1.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /home/ydamergi/venvs/venv-for-python/lib/python3.7/site-packages (from scikit-learn->sklearn) (3.1.0)
+ERROR: Could not find a version that satisfies the requirement import (from versions: none)
+ERROR: No matching distribution found for import
+ERROR: Could not find a version that satisfies the requirement import (from versions: none)
+ERROR: No matching distribution found for import
+ERROR: Could not find a version that satisfies the requirement import (from versions: none)
+ERROR: No matching distribution found for import
+ERROR: Could not find a version that satisfies the requirement warnings (from versions: none)
+ERROR: No matching distribution found for warnings
+the number of rows is equal 65 to the number of samples 
+the number of columns is equal 200 to the number of genes 
+We have  2 different sample classes 
